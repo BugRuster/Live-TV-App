@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/parentID"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.app.dbug.activity.TvViewActivity">
+
+    <xyz.doikki.videoplayer.player.VideoView
+        android:id="@+id/player1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:visibility="gone"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/linearlayout111"
+        android:background="@color/black"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:text="SERVER ERROR"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:padding="10dp"
+            android:text="Retry"
+            android:background="@drawable/bg_round_player"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <RelativeLayout
+
+        android:id="@+id/relatedViewRelativeLayout"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:focusable="true"
+            android:focusableInTouchMode="false"
+            android:background="@drawable/button_d2"
+            android:clickable="true"
+            android:id="@+id/relatedView"
+            android:src="@drawable/ic_baseline_menu"
+            android:layout_alignParentEnd="true"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/channalList"
+        android:layout_below="@+id/relatedViewRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_alignParentEnd="true"
+            android:layout_width="300dp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:background="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+                <ImageView
+                    android:focusable="true"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center"
+                    android:background="@drawable/button_d2"
+                    android:clickable="true"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/hidRelatedChannel"
+                    android:src="@drawable/ic_baseline_arrow_forward"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"/>
+
+                <TextView
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    android:gravity="center_vertical"
+                    android:text="   All Related Channel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recentAdItemRecyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:scrollbars="none"
+                tools:listitem="@layout/channal_item_all_activity" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

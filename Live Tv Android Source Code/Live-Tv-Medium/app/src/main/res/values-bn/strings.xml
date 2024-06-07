@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="next">পরবর্তী</string>
+    <string name="skip">স্কিপ</string>
+    <string name="start">এখনই শুরু কর</string>
+    <!-- Sync Preferences -->
+    <string name="summary_about">আমরা অ্যাপ-স্পেস জুড়ে নতুন ট্রেন্ড তৈরি করে অ্যান্ড্রয়েড অ্যাপ ডেভেলপমেন্টের বিকাশে বিশেষত সমমনা লোকদের একটি দল। যাইহোক সাহায্য করতে পেরে আনন্দিত!</string>
+    <string name="privacy_policy">গোপনীয়তা নীতি</string>
+
+    <string name="categories_home">বিভাগসমূহ</string>
+    <string name="see_all">সবগুলো দেখ</string>
+    <string name="show_all">সব দেখ</string>
+    <string name="recent">সাম্প্রতিক</string>
+    <string name="channel">খবর</string>
+    <string name="favorites">পছন্দসই</string>
+    <string name="all_category">সমস্ত বিভাগ</string>
+    <string name="setting">স্থাপন</string>
+    <string name="select_your_language">আপনার ভাষা নির্বাচন করুন</string>
+    <string name="send_feedback">প্রশ্ন? আমরা সাহায্য করার জন্য সুখী!</string>
+    <string name="FAQ">প্রায়শই জিজ্ঞাসিত প্রশ্ন দেখুন</string>
+    <string name="dark_mode_on_or_off">অন্ধকার মোড চালু বা বন্ধ</string>
+    <string name="vibrator_on_channel_notification">নতুন বিজ্ঞপ্তিতে ভাইব্রেটর</string>
+    <string name="new_message_notification">নতুন বার্তা বিজ্ঞপ্তি</string>
+    <string name="notification">বিজ্ঞপ্তি</string>
+    <string name="vibrator">কম্পনকারী</string>
+    <string name="dark_mode">অন্ধকার মোড</string>
+    <string name="language">ভাষা</string>
+    <string name="about">সম্পর্কিত</string>
+    <string name="version">সংস্করণ</string>
+    <string name="send_feedback_main">মতামত পাঠানো</string>
+    <string name="faq">FAQ</string>
+    <string name="terms_amp_condition">শর্তাবলী</string>
+    <string name="rate_us">Rate us</string>
+
+
+</resources>

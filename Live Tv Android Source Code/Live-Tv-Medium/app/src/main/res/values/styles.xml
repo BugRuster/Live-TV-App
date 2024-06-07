@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppThemeLight" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/maincolor</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogLightTheme</item>
+
+        <!--        custom item-->
+        <item name="main_layout_color">@color/main_layout_color_light</item>
+        <item name="main_text_color">@color/main_text_color_light</item>
+        <item name="snd_text_color">@color/second_text_color_light</item>
+        <item name="indicator_active_color">@color/dot_color_active_light</item>
+        <item name="indicator_inactive_color">@color/dot_color_inactive_light</item>
+        <item name="dived_color">@color/div_color_light</item>
+        <item name="card_background_color">@color/card_background_light</item>
+    </style>
+
+
+
+
+
+    <style name="AppThemeDark" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:windowBackground">@color/maincolor</item>
+        <item name="cardViewStyle">@style/DarkCardView</item>
+        <item name="android:navigationBarColor">@color/maincolor</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogDarkTheme</item>
+
+
+        <!--        custom item-->
+        <item name="main_layout_color">@color/main_layout_color_dark</item>
+        <item name="main_text_color">@color/main_text_color_dark</item>
+        <item name="snd_text_color">@color/second_text_color_dark</item>
+        <item name="indicator_active_color">@color/dot_color_active_dark</item>
+        <item name="indicator_inactive_color">@color/dot_color_inactive_dark</item>
+        <item name="dived_color">@color/div_color_dark</item>
+        <item name="card_background_color">@color/card_background_dark</item>
+    </style>
+
+
+
+
+
+    <style name="DarkCardView" parent="CardView.Dark">
+        <item name="cardBackgroundColor">@color/black_window</item>
+    </style>
+
+    <!-- This will set the fade in animation on all your activities by default -->
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+
+    <style name="ProgressBarStyle">
+        <item name="colorAccent">@color/progressBarColor</item>
+    </style>
+
+
+    <style name="AppBottomSheetDialogDarkTheme"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalDarkStyle</item>
+    </style>
+
+    <style name="AppBottomSheetDialogLightTheme"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalLightStyle</item>
+    </style>
+
+    <style name="AppModalLightStyle"
+        parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/rounded_bottom_shit_light</item>
+    </style>
+
+    <style name="AppModalDarkStyle"
+        parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/rounded_bottom_shit_dark</item>
+    </style>
+
+    <style name="Theme.statusBarTransparent" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">@android:color/transparent</item>
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item>
+    </style>
+
+</resources>

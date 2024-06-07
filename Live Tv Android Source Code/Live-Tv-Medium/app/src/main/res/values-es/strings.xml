@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="next">SIGUIENTE</string>
+    <string name="skip">SALTAR</string>
+    <string name="start">EMPEZAR AHORA</string>
+    <!-- Sync Preferences -->
+    <string name="summary_about">Somos un equipo de personas con ideas afines, especializados en el desarrollo de aplicaciones de Android, creando nuevas tendencias en todo el espacio de las aplicaciones. ¡Encantado de ayudar de todos modos!</string>
+    <string name="privacy_policy">Política de privacidad</string>
+
+    <string name="categories_home">Categorías</string>
+    <string name="see_all">Ver todo</string>
+    <string name="show_all">Mostrar todo</string>
+    <string name="recent">Reciente</string>
+    <string name="channel">Noticias</string>
+    <string name="favorites">Favoritas</string>
+    <string name="all_category">Todas las categorias</string>
+    <string name="setting">Configuración</string>
+    <string name="select_your_language">Elige tu idioma</string>
+    <string name="send_feedback">¿Pregunta? Estamos encantados de ayudarle!</string>
+    <string name="FAQ">Ver pregunta frecuente</string>
+    <string name="dark_mode_on_or_off">Modo oscuro activado o desactivado</string>
+    <string name="vibrator_on_channel_notification">Vibrador en nueva notificación</string>
+    <string name="new_message_notification">Vibrador en nueva notificación</string>
+    <string name="notification">Notificación</string>
+    <string name="vibrator">Vibrador</string>
+    <string name="dark_mode">Modo oscuro</string>
+    <string name="language">Idioma</string>
+    <string name="about">Acerca de</string>
+    <string name="version">Versión</string>
+    <string name="send_feedback_main">Enviar retroalimentaciónk</string>
+    <string name="faq">Preguntas más frecuentes</string>
+    <string name="terms_amp_condition">Términos &amp; Condición</string>
+    <string name="rate_us">Rate us</string>
+</resources>

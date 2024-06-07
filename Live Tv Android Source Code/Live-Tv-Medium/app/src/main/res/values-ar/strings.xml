@@ -1,0 +1,39 @@
+<resources>
+
+    <string name="next">التالي</string>
+    <string name="skip">يتخطى</string>
+    <string name="start">ابدأ الآن</string>
+
+
+    <string name="summary_about">نحن فريق من الأشخاص المتشابهين في التفكير ، متخصصون في تطوير تطبيقات Android لخلق اتجاهات جديدة عبر مساحة التطبيق مسرور للمساعدة على أي حال!</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="categories_home">فئات</string>
+    <string name="see_all">اظهار الكل</string>
+    <string name="show_all">عرض الكل</string>
+    <string name="recent">الأخيرة</string>
+    <string name="channel">أخبار</string>
+    <string name="favorites">المفضلة</string>
+    <string name="all_category">كل الفئات</string>
+    <string name="setting">جلسة</string>
+    <string name="select_your_language">اختر لغتك</string>
+    <string name="send_feedback">هل لديك سؤال نملة؟ ونحن سعداء للمساعدة!</string>
+    <string name="FAQ">عرض الأسئلة المتداولة</string>
+    <string name="dark_mode_on_or_off">وضع الظلام أو إيقاف تشغيله</string>
+    <string name="vibrator_on_channel_notification">هزاز عند الإخطار الجديد</string>
+    <string name="new_message_notification">إشعار رسالة جديدة</string>
+    <string name="notification">تنبيه</string>
+    <string name="vibrator">هزاز</string>
+    <string name="dark_mode">الوضع الداكن</string>
+    <string name="language">لغة</string>
+    <string name="about">حول</string>
+    <string name="version">إصدار</string>
+    <string name="send_feedback_main">ارسل رأيك</string>
+    <string name="faq">التعليمات</string>
+    <string name="terms_amp_condition">شروط وأمبير. شرط</string>
+    <string name="rate_us">Rate us</string>
+
+
+</resources>

@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Live Tv</string>
+    <string name="version_num" translatable="false">1.0</string>
+
+    <string name="banner_ads" translatable="false">fb</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">START NOW</string>
+    <!-- Sync Preferences -->
+    <string name="summary_about">We are a team of like-minded people, specialized in development of Android App Development creating new trends across the app space. Glad to Help in anyway!</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <string name="categories_home">Categories</string>
+    <string name="see_all">See All</string>
+    <string name="show_all">Show All</string>
+    <string name="recent">Recent</string>
+    <string name="channel">Channel</string>
+    <string name="favorites">Favorites</string>
+    <string name="all_category">Categories</string>
+    <string name="setting">Settings</string>
+    <string name="select_your_language">Select your Language</string>
+    <string name="send_feedback">Question? We are happy to help!</string>
+    <string name="FAQ">View frequently asked question</string>
+    <string name="dark_mode_on_or_off">Dark mode on or off</string>
+    <string name="vibrator_on_channel_notification">Vibrator on new notification</string>
+    <string name="new_message_notification">New message notification</string>
+    <string name="notification">Notification</string>
+    <string name="vibrator">Vibrator</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="language">Language</string>
+    <string name="about">About</string>
+    <string name="version">Version</string>
+    <string name="send_feedback_main">Send FeedBack</string>
+    <string name="faq">FAQ</string>
+    <string name="terms_amp_condition">Terms &amp; Condition</string>
+    <string name="rate_us">Rate us</string>
+    <string name="search" translatable="false">Search</string>
+
+    <string name="internet_not_connected" translatable="false">Internet not connected</string>
+    <string name="error_loading_radio" translatable="false">Error loading radio or server currently down, please try it again later.</string>
+    <string name="sleep_time" translatable="false">Sleeping Time</string>
+    <string name="min" translatable="false">Minutes</string>
+    <string name="set" translatable="false">Set</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="stop" translatable="false">Stop</string>
+    <string name="no_radio_selected" translatable="false">Whoops, No Radio Selected!</string>
+    <string name="recent_added" translatable="false">Recent Added</string>
+    <string name="list" translatable="false">List</string>
+    <string name="grid" translatable="false">grid</string>
+    <string name="list_or_grid" translatable="false">Grid</string>
+    <string name="news" translatable="false">News</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+</resources>

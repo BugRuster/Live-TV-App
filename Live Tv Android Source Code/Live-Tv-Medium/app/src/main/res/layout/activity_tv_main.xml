@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.dbug.activity.TvMainActivity">
+
+    <RelativeLayout
+        android:layout_above="@+id/tab_layout_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="?attr/main_layout_color"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/tab_layout_tabs"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp">
+
+        <View
+            android:id="@+id/line_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_color"
+            android:layout_above="@+id/tab_layout"/>
+        <com.google.android.material.tabs.TabLayout
+            android:background="?attr/main_layout_color"
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tabIndicator="@drawable/tab_bottom_indicator"
+            app:tabIndicatorFullWidth="false"
+            app:tabIndicatorColor="@android:color/transparent"
+            app:tabInlineLabel="true"
+            app:tabRippleColor="@android:color/transparent" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:weightSum="9"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <LinearLayout
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/button_sheet_imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="Sports"
+                android:layout_marginTop="5dp"
+                android:maxLines="1"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/category_name_button_sheet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginTop="5dp"
+               android:text="this category is lock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+    <EditText
+        android:singleLine="true"
+        android:imeOptions="actionDone"
+        android:layout_margin="5dp"
+        android:id="@+id/passButtonSheetEditText"
+        android:hint="Enter password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/buttonSheetPassButton"
+        android:text="Submit"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

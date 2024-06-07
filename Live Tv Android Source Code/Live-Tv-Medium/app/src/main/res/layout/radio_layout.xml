@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_music_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_thumbnail" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#80000000" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_expand"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/img_collapse"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="6dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center"
+                    android:background="@drawable/button_d2"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/ic_baseline_keyboard_arrow_down" />
+
+                <TextView
+                    android:id="@+id/txt_radio_music_expand"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="13sp" />
+
+                <ImageButton
+                    android:visibility="gone"
+                    android:id="@+id/img_favorite"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="6dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    app:srcCompat="@drawable/ic_favorite_white" />
+
+                <ImageButton
+                    android:visibility="gone"
+                    android:id="@+id/img_share"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="6dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    app:srcCompat="@drawable/ic_share_white" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginBottom="100dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bg_round_radio_detials"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20sp"
+                    android:id="@+id/txt_radio_name_expand"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Radio name"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="normal"
+                    android:letterSpacing=".02"
+                    android:fontFamily="@font/archivo_medium"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20sp"
+                    android:id="@+id/txt_metadata_expand"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:minLines="2"
+                    android:text="Song name"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/archivo_regular"
+                    android:letterSpacing=".02"/>
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:id="@+id/lyt_player_expand"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:layoutDirection="ltr"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+
+                    <ImageButton
+                        android:id="@+id/img_timer"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="false"
+                        android:gravity="center"
+                        android:background="@drawable/button_d2"
+                        android:clickable="true"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_radio_timer" />
+
+                    <ImageButton
+                        android:id="@+id/img_previous_expand"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="false"
+                        android:gravity="center"
+                        android:background="@drawable/button_d2"
+                        android:clickable="true"
+                        app:srcCompat="@drawable/ic_skip_previous_white" />
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/fab_play"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="false"
+                        android:gravity="center"
+                        android:background="@drawable/button_d2"
+                        android:clickable="true"
+                        android:src="@drawable/ic_play_button_radio"
+                        app:backgroundTint="@color/colorPlayButton"
+                        app:borderWidth="0dp"
+                        app:elevation="0dp"
+                        app:fabSize="normal"
+                        app:rippleColor="@color/colorRipple"
+                        app:tint="@android:color/white" />
+                    <ImageButton
+                        android:id="@+id/img_next_expand"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="false"
+                        android:gravity="center"
+                        android:background="@drawable/button_d2"
+                        android:clickable="true"
+                        app:srcCompat="@drawable/ic_skip_next_white" />
+
+                    <ImageButton
+                        android:id="@+id/img_volume"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="false"
+                        android:gravity="center"
+                        android:background="@drawable/button_d2"
+                        android:clickable="true"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_baseline_volume_up1" />
+
+                </LinearLayout>
+
+                <ProgressBar
+                    android:id="@+id/progress_bar"
+                    android:layout_width="39dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="30dp"
+                    android:indeterminate="true"
+                    android:theme="@style/ProgressBarStyle"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:visibility="visible"
+        android:id="@+id/lyt_collapse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <View
+            android:id="@+id/bg_shadow"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha="0.5"
+            android:background="@drawable/top_shadow_gradient" />
+
+        <LinearLayout
+            android:id="@+id/lyt_collapse_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bg_shadow"
+            android:orientation="horizontal">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/img_cover_small"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_artwork"
+                app:riv_corner_radius="8dp"
+                app:riv_mutate_background="true" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/txt_radio_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/app_name"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/txt_metadata"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:freezesText="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="Loading&#8230;"
+                    android:textSize="13dp" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp">
+
+                <LinearLayout
+                    android:id="@+id/lyt_play_collapse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layoutDirection="ltr"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/img_player_previous"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_skip_previous_black"
+                        app:tint="@color/black" />
+
+                    <ImageButton
+                        android:id="@+id/img_player_play"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_play_button_radio"
+                        app:tint="@color/black" />
+
+                    <ImageButton
+                        android:id="@+id/img_player_next"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_skip_next_black"
+                        app:tint="@color/black" />
+
+                </LinearLayout>
+
+                <ProgressBar
+                    android:id="@+id/progress_bar_collapse"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_centerInParent="true"
+                    android:indeterminate="true"
+                    android:theme="@style/ProgressBarStyle"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

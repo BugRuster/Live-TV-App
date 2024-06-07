@@ -1,0 +1,188 @@
+{
+  "project_info": {
+    "project_number": "664263255840",
+    "firebase_url": "https://wallmart-hd.firebaseio.com",
+    "project_id": "wallmart-hd",
+    "storage_bucket": "wallmart-hd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664263255840:android:80a8295803f861eda59945",
+        "android_client_info": {
+          "package_name": "com.app.dbug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664263255840-rf995a33geph2jd0lk00met7iitsjmhl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.dbug",
+            "certificate_hash": "6dff9f07f94305e23beab4f6e989d91d86dbf756"
+          }
+        },
+        {
+          "client_id": "664263255840-t80lgi8lvad3p05tps3dqi6504q95men.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR2NlzeQNFknbiAfyiJ-W4PLdiQloQk1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664263255840-t80lgi8lvad3p05tps3dqi6504q95men.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664263255840:android:945f6c9415e847d7a59945",
+        "android_client_info": {
+          "package_name": "com.dbugcdcn.streamit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664263255840-t80lgi8lvad3p05tps3dqi6504q95men.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR2NlzeQNFknbiAfyiJ-W4PLdiQloQk1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664263255840-t80lgi8lvad3p05tps3dqi6504q95men.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664263255840:android:47769bc150f00265a59945",
+        "android_client_info": {
+          "package_name": "com.example.dbugqrcode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664263255840-l5gf3clthbtc1llemshl19lcpj04tct2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dbugqrcode",
+            "certificate_hash": "6dff9f07f94305e23beab4f6e989d91d86dbf756"
+          }
+        },
+        {
+          "client_id": "664263255840-t80lgi8lvad3p05tps3dqi6504q95men.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR2NlzeQNFknbiAfyiJ-W4PLdiQloQk1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664263255840-t80lgi8lvad3p05tps3dqi6504q95men.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664263255840:android:083052d8d00c5eaea59945",
+        "android_client_info": {
+          "package_name": "com.istiaksaif.wallmart.info"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664263255840-4rmnln110l7gmb7368fm0i5g6joad706.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.istiaksaif.wallmart.info",
+            "certificate_hash": "6dff9f07f94305e23beab4f6e989d91d86dbf756"
+          }
+        },
+        {
+          "client_id": "664263255840-t80lgi8lvad3p05tps3dqi6504q95men.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR2NlzeQNFknbiAfyiJ-W4PLdiQloQk1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664263255840-t80lgi8lvad3p05tps3dqi6504q95men.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664263255840:android:21c95603b310ded2a59945",
+        "android_client_info": {
+          "package_name": "com.randvideocall.livestrvidapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664263255840-fg9iljsbp30i5l38i3mf9p2vroj8ibgi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.randvideocall.livestrvidapp",
+            "certificate_hash": "6dff9f07f94305e23beab4f6e989d91d86dbf756"
+          }
+        },
+        {
+          "client_id": "664263255840-t80lgi8lvad3p05tps3dqi6504q95men.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR2NlzeQNFknbiAfyiJ-W4PLdiQloQk1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664263255840-t80lgi8lvad3p05tps3dqi6504q95men.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

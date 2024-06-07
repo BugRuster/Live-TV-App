@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="main_layout_color" format="color"/>
+    <attr name="main_text_color" format="color"/>
+    <attr name="snd_text_color" format="color"/>
+    <attr name="indicator_active_color" format="color"/>
+    <attr name="indicator_inactive_color" format="color"/>
+    <attr name="dived_color" format="color"/>
+    <attr name="card_background_color" format="color"/>
+</resources>

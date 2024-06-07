@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="next">अगला</string>
+    <string name="skip">छोड़ें</string>
+    <string name="start">अभी शुरू करो</string>
+    <!-- Sync Preferences -->
+    <string name="summary_about">हम समान विचारधारा वाले लोगों की एक टीम हैं, जो एंड्रॉइड ऐप डेवलपमेंट के विकास में विशेषज्ञता रखते हैं और ऐप स्पेस में नए ट्रेंड बनाते हैं। किसी भी तरह मदद करने में खुशी हुई!</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+
+    <string name="categories_home">श्रेणियाँ</string>
+    <string name="see_all">सभी देखें</string>
+    <string name="show_all">सब दिखाएं</string>
+    <string name="recent">हाल का</string>
+    <string name="channel">समाचार</string>
+    <string name="favorites">पसंदीदा</string>
+    <string name="all_category">सभी श्रेणी</string>
+    <string name="setting">स्थापना</string>
+    <string name="select_your_language">अपनी भाषा का चयन करें</string>
+    <string name="send_feedback">सवाल? मदद करके हमें खुशी होगी!</string>
+    <string name="FAQ">अक्सर पूछे जाने वाले प्रश्न देखें</string>
+    <string name="dark_mode_on_or_off">डार्क मोड चालू या बंद</string>
+    <string name="vibrator_on_channel_notification">नई अधिसूचना पर थरथानेवाला</string>
+    <string name="new_message_notification">नया संदेश सूचना</string>
+    <string name="notification">अधिसूचना</string>
+    <string name="vibrator">थरथानेवाला</string>
+    <string name="dark_mode">डार्क मोड</string>
+    <string name="language">भाषा: हिन्दी</string>
+    <string name="about">तकरीबन</string>
+    <string name="version">संस्करण</string>
+    <string name="send_feedback_main">प्रतिक्रिया भेजें</string>
+    <string name="faq">सामान्य प्रश्न</string>
+    <string name="terms_amp_condition">शर्तें &amp; स्थिति</string>
+    <string name="rate_us">Rate us</string>
+</resources>

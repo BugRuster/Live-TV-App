@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="main_color_w">#EDEEF2</color>
+    <color name="white_grey">#A2A2A4</color>
+    <color name="text_color">#292929</color>
+    <color name="text_color_light">#727272</color>
+    <color name="item_text_color_light">#848484</color>
+
+   <color name="maincolor">#121212</color>
+   <color name="tool_bar_color">#1F1F1F</color>
+    <color name="bg_channel_text">#8A090808</color>
+
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen3">#3395ff</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+    <color name="colorPrimary">#ED1C24</color>
+    <color name="colorPrimaryDark">#8F012A</color>
+    <color name="colorAccent">#2278d4</color>
+    <color name="paypalColor">#ffc43a</color>
+    <color name="black_window">#111111</color>
+    <color name="blue_grey_300">#90A4AE</color>
+    <color name="progressBarColor">#FFE719</color>
+    <color name="colorPlayButton">#5C92FF</color>
+    <color name="colorRipple">#7E7E7E</color>
+
+
+<!--    new color change code-->
+    <color name="main_text_color_light">#292929</color>
+    <color name="second_text_color_light">#A09FA5</color>
+
+    <color name="main_text_color_dark">#FFFFFF</color>
+    <color name="second_text_color_dark">#6D6D6D</color>
+
+    <color name="main_layout_color_light">#FFFFFF</color>
+    <color name="main_layout_color_dark">#141414</color>
+
+
+    <color name="div_color_light">#E6E6E6</color>
+    <color name="div_color_dark">#3D3D3D</color>
+
+    <color name="card_background_light">#F4F4F4</color>
+    <color name="card_background_dark">#1D1D1D</color>
+    <color name="line_color">#E6E6E6</color>
+    <color name="line_color_dark">#3D3D3D</color>
+
+    <color name="dot_color_active_dark">#FFFFFF</color>
+    <color name="dot_color_active_light">#292929</color>
+    <color name="dot_color_inactive_dark">#4C4C4C</color>
+    <color name="dot_color_inactive_light">#CCCCCC</color>
+
+
+</resources>

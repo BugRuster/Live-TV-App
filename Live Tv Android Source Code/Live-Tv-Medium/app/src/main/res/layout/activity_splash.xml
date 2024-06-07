@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center"
+    tools:context="com.app.dbug.activity.SplashActivity">
+
+    <ImageView
+        android:id="@+id/splashViewId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/splash_w"
+       />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:id="@+id/app_name_in_splash"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:fontFamily="@font/clashdisplay_semibold"
+            android:text="@string/app_name"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textAllCaps="true"
+            android:letterSpacing=".2"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img"
+            android:layout_alignStart="@+id/img"
+            android:layout_alignEnd="@+id/img"
+            android:gravity="center"
+            android:shadowColor="@color/white_grey"
+            android:shadowDx="4"
+            android:shadowDy="5"
+            android:shadowRadius="10"/>
+    </RelativeLayout>
+
+</RelativeLayout>

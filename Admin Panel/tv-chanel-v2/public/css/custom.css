@@ -1,0 +1,57 @@
+.product-form {
+    margin-left: 60px;
+    width: 50rem;
+}
+
+.slider-from {
+    margin-left: 60px;
+    width: 50rem;
+}
+
+.category-from {
+    margin-left: 60px;
+    width: 40rem;
+}
+
+.btn-create {
+    background-color: rgb(52, 58, 64);
+    color: white;
+}
+
+.brand {
+    font-size: 52px;
+    background: -webkit-linear-gradient(#eee, rgb(199, 192, 192));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-table {
+}
+
+.table-header {
+    background-color: #3A3A3B;
+    height: 20px;
+    color: #fff;
+}
+
+.table-img img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.table-link {
+    max-width: 200px;
+    height: auto;
+}
+
+@media only screen and (max-width: 700px) {
+    .hide {
+        display: none;
+    }
+}

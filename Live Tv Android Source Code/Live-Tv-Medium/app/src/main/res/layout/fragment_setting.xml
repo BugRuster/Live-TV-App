@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainn_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/main_layout_color"
+    android:orientation="vertical"
+    tools:context="com.app.dbug.fragmant.SettingFragment">
+    <LinearLayout
+        android:id="@+id/toolBardId"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/transparent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@color/transparent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20sp"
+                    android:fontFamily="@font/clashdisplay_semibold"
+                    android:gravity="center"
+                    android:text="@string/setting"
+                    android:textAllCaps="true"
+                    android:textColor="?attr/main_text_color"
+                    android:textSize="20sp"
+                    android:letterSpacing=".02"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/main_layout_color">
+
+        <LinearLayout
+            android:id="@+id/main_layout_setting_fag"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/main_layout_color"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/notification"
+                    android:textSize="17sp"
+                    android:textStyle="normal" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/new_message_notification" />
+
+                    <Switch
+                        android:id="@+id/notification_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vibrator"
+                    android:textSize="17dp"
+                    android:textStyle="normal" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vibrator_on_channel_notification" />
+
+                    <Switch
+                        android:id="@+id/vibrator_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:background="?attr/main_layout_color"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:background="?attr/main_layout_color"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/main_layout_color">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:id="@+id/l1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/archivo_medium"
+                                android:text="@string/dark_mode"
+                                android:textColor="?attr/main_text_color"
+                                android:textSize="20sp"
+                                android:letterSpacing=".02"
+                                android:textStyle="normal" />
+                            <TextView
+                                android:id="@+id/dark_summery"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/archivo_regular"
+                                android:text="@string/dark_mode_on_or_off"
+                                android:textColor="?attr/snd_text_color"
+                                android:layout_below="@id/l1"
+                                android:textSize="16sp"
+                                android:layout_marginTop="10dp"/>
+
+                            <Switch
+                                android:id="@+id/dark_mode_switch"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                tools:ignore="UseSwitchCompatOrMaterialXml"
+                                app:thumbTint="@color/switch_thumb_selector"
+                                app:trackTint="@color/switch_track_selector" />
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="?attr/dived_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/main_layout_color"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/archivo_medium"
+                            android:text="@string/list_or_grid"
+                            android:textColor="?attr/main_text_color"
+                            android:textSize="20sp"
+                            android:letterSpacing=".02"
+                            android:textStyle="normal" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:id="@+id/gridOrList"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/archivo_regular"
+                                android:text="List or Grid"
+                                android:textSize="16sp"
+                                android:textColor="?attr/snd_text_color" />
+
+                            <Switch
+                                android:id="@+id/listOrglide"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                tools:ignore="UseSwitchCompatOrMaterialXml"
+                                app:trackTint="@color/switch_track_selector"
+                                app:thumbTint="@color/switch_thumb_selector"/>
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="?attr/dived_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:visibility="gone"/>
+                    <com.balysv.materialripple.MaterialRippleLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/main_layout_color"
+                        app:mrl_rippleAlpha="0.3"
+                        app:mrl_rippleColor="#585858"
+                        app:mrl_rippleHover="true"
+                        app:mrl_rippleOverlay="true">
+
+                        <LinearLayout
+                            android:id="@+id/languageSelect"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/jost_semi_bold"
+                                android:text="@string/language"
+                                android:textColor="?attr/main_text_color"
+                                android:textSize="20sp"
+                                android:letterSpacing=".02"
+                                android:textStyle="normal" />
+
+                            <TextView
+                                android:id="@+id/languView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/archivo_regular"
+                                android:text="@string/select_your_language"
+                                android:textColor="?attr/snd_text_color"
+                                android:textSize="16sp"
+                                android:layout_marginTop="10dp"/>
+                        </LinearLayout>
+                    </com.balysv.materialripple.MaterialRippleLayout>
+                    <View
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="?attr/dived_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/main_layout_color"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/archivo_medium"
+                            android:text="@string/about"
+                            android:textColor="?attr/main_text_color"
+                            android:textSize="20sp"
+                            android:letterSpacing=".02"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:id="@+id/about_summery"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/archivo_regular"
+                            android:text="@string/summary_about"
+                            android:textColor="?attr/snd_text_color"
+                            android:textStyle="normal"
+                            android:textSize="16sp"
+                            android:layout_marginTop="10dp"/>
+                    </LinearLayout>
+                    <View
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="?attr/dived_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/main_layout_color"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/archivo_medium"
+                            android:text="@string/version"
+                            android:textColor="?attr/main_text_color"
+                            android:textSize="20sp"
+                            android:letterSpacing=".02"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:id="@+id/version_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/archivo_regular"
+                            android:text="@string/version_num"
+                            android:textColor="?attr/snd_text_color"
+                            android:textSize="16sp"
+                            android:textStyle="normal"
+                            android:layout_marginTop="10dp"/>
+                    </LinearLayout>
+                    <View
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="?attr/dived_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"/>
+                    <com.balysv.materialripple.MaterialRippleLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/main_layout_color"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        app:mrl_rippleAlpha="0.3"
+                        app:mrl_rippleColor="#585858"
+                        app:mrl_rippleHover="true"
+                        app:mrl_rippleOverlay="true">
+
+                        <LinearLayout
+                            android:id="@+id/feedBakId"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/archivo_medium"
+                                android:text="@string/send_feedback_main"
+                                android:textColor="?attr/main_text_color"
+                                android:textSize="20sp"
+                                android:letterSpacing=".02"
+                                android:textStyle="normal" />
+
+                            <TextView
+                                android:id="@+id/feedback_summery"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/archivo_regular"
+                                android:text="@string/send_feedback"
+                                android:textColor="?attr/snd_text_color"
+                                android:layout_marginTop="10dp"
+                                android:textStyle="normal"
+                                android:textSize="16sp"/>
+                        </LinearLayout>
+                    </com.balysv.materialripple.MaterialRippleLayout>
+                    <View
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="?attr/dived_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"/>
+                    <com.balysv.materialripple.MaterialRippleLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/main_layout_color"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        app:mrl_rippleAlpha="0.3"
+                        app:mrl_rippleColor="#585858"
+                        app:mrl_rippleHover="true"
+                        app:mrl_rippleOverlay="true">
+
+                        <LinearLayout
+                            android:id="@+id/faq_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/archivo_medium"
+                                android:text="@string/faq"
+                                android:textColor="?attr/main_text_color"
+                                android:textSize="20sp"
+                                android:letterSpacing=".02"
+                                android:textStyle="normal" />
+
+                            <TextView
+                                android:id="@+id/faq_summery"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/archivo_regular"
+                                android:text="@string/FAQ"
+                                android:textColor="?attr/snd_text_color"
+                                android:layout_marginTop="10dp"
+                                android:textSize="16sp"
+                                android:textStyle="normal"/>
+                        </LinearLayout>
+                    </com.balysv.materialripple.MaterialRippleLayout>
+                    <View
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="?attr/dived_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"/>
+                    <com.balysv.materialripple.MaterialRippleLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/main_layout_color"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        app:mrl_rippleAlpha="0.3"
+                        app:mrl_rippleColor="#585858"
+                        app:mrl_rippleHover="true"
+                        app:mrl_rippleOverlay="true">
+
+                        <LinearLayout
+                            android:id="@+id/reate_us"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="3dp">
+
+                            <TextView
+                                android:textStyle="normal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/archivo_medium"
+                                android:text="@string/rate_us"
+                                android:textColor="?attr/main_text_color"
+                                android:textSize="20sp"
+                                android:letterSpacing=".02"/>
+
+                        </LinearLayout>
+                    </com.balysv.materialripple.MaterialRippleLayout>
+                    <View
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="?attr/dived_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"/>
+                    <com.balysv.materialripple.MaterialRippleLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/main_layout_color"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        app:mrl_rippleAlpha="0.3"
+                        app:mrl_rippleColor="#585858"
+                        app:mrl_rippleHover="true"
+                        app:mrl_rippleOverlay="true">
+
+                        <LinearLayout
+                            android:id="@+id/priv_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="3dp">
+
+                            <TextView
+                                android:textStyle="normal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/archivo_medium"
+                                android:text="@string/privacy_policy"
+                                android:textColor="?attr/main_text_color"
+                                android:textSize="20sp"
+                                android:letterSpacing=".02"/>
+
+                        </LinearLayout>
+                    </com.balysv.materialripple.MaterialRippleLayout>
+                    <View
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="?attr/dived_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"/>
+                    <com.balysv.materialripple.MaterialRippleLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/main_layout_color"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        app:mrl_rippleAlpha="0.3"
+                        app:mrl_rippleColor="#585858"
+                        app:mrl_rippleHover="true"
+                        app:mrl_rippleOverlay="true">
+
+                        <LinearLayout
+                            android:id="@+id/tandc_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="3dp">
+
+                            <TextView
+                                android:textStyle="normal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/archivo_medium"
+                                android:text="@string/terms_amp_condition"
+                                android:textColor="?attr/main_text_color"
+                                android:textSize="20sp"
+                                android:letterSpacing=".02"/>
+
+                        </LinearLayout>
+                    </com.balysv.materialripple.MaterialRippleLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
